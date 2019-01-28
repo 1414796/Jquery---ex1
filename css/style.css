@@ -11,6 +11,10 @@
   margin-bottom: -4px;
 }
 
+.menu img {
+  cursor: pointer;
+}
+
 .menu h2 {
   text-align: center;
 }
@@ -34,12 +38,13 @@
 .hidden-Model {
   position: absolute;
   margin-top: -380px;
-  margin-left: -16%;
+  margin-left: -90%;
   background: #fff;
   width: 350px;
   border: 2px solid #9f781d;
   border-radius: 5px;
   display: none;
+  /*overflow: no-display;*/
 }
 
 .hidden-Model h2 {

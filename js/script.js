@@ -88,10 +88,11 @@ function callAgain() {
 
     // Open model
     $(".menu__detail").click(function(e) {
-        e.preventDefault();
+        // e.preventDefault();
         $(".hidden-Model").css("display", "block");
-        // $(".hidden-Model").slideDown();
-        // $(".hidden-model").animate({height: "toggle"});
+        TweenMax.fromTo($(".hidden-Model"), 0.5,
+            {x: 200,y: -200},
+            {x: 200,y: 10})
     });
 
     // slide down buttton 1
