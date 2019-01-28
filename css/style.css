@@ -1,0 +1,61 @@
+.container {
+  position: relative;
+  margin: 20px auto;
+  width: 269px;
+  height: auto;
+  border-radius: 7px;
+  border: 1px solid #a9862a;
+}
+
+.menu {
+  margin-bottom: -4px;
+}
+
+.menu h2 {
+  text-align: center;
+}
+
+.menu__inner {
+  padding: 15px;
+  color: #a9862a;
+  font-family: Arial;
+  /*font-size: 20px;*/
+  display: none;
+}
+
+.menu__inner a {
+  padding-left: 24%;
+}
+
+.menu__detail img {
+  margin-top: 20px;
+}
+
+.hidden-Model {
+  position: absolute;
+  margin-top: -380px;
+  margin-left: -16%;
+  background: #fff;
+  width: 350px;
+  border: 2px solid #9f781d;
+  border-radius: 5px;
+  display: none;
+}
+
+.hidden-Model h2 {
+  text-align: center;
+}
+
+.hidden-Model p {
+  margin: 5%;
+}
+
+.picture-inner {
+  margin-top: 0;
+  padding-bottom: 5%;
+}
+
+.close {
+  margin-left: 328px;
+  margin-top: -20px;
+}
